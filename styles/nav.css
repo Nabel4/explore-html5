@@ -1,0 +1,43 @@
+nav > ul{
+    
+    display: flex;
+}
+nav > ul > li{
+    list-style: none;
+    margin-right: 50px;
+    padding: 0px 25px;
+}
+
+nav > ul > li:hover{
+background-color: skyblue;
+}
+   
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.link-dropdown{
+    display: none;
+    position: absolute;
+    background-color: pink;
+    padding: 0px;
+
+}
+
+
+nav > ul li:hover >ul{
+    display: block;
+}
+nav > ul >li > ul > li{
+    list-style: none;
+    
+}
+nav > ul >li > ul > li > a:hover{
+    color: white;
+    background-color: chocolate;
+}
+/* }nav > ul >li > ul{
+    padding: 0px;
+}  */
+caught khaia lai silam sob somoy margin ba padding er por px deoa lagbo.
